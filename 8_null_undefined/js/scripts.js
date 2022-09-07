@@ -1,13 +1,25 @@
-// Hoisting - içamento
+var obj = {
+    nome: "matheus",
+    idade: "29",
+    profissão: "Programador",
+    estarTrabalhando: true
+};
 
-console.log(sobrenome);
+console.log(obj);
+console.log(typeof obj);
 
-var nome = null;
-var sobrenome = "felipe"
+console.log(obj.nome);
+console.log(obj.idade);
+console.log(obj.profissão);
 
-console.log(nome);
-console.log(sobrenome);
 
-nome = "felipe";
+console.log("o meu nome é" + obj.nome);
+console.log(`o meu nome é ${obj.nome} tenho ${obj.idade} anos e trabalho como ${obj.profissão} `);
 
-console.log(nome);
+obj.nome = "Felipe";
+
+console.log(obj.nome);
+
+obj.peso = true;
+
+console.log(obj);
