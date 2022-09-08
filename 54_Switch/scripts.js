@@ -1,29 +1,19 @@
-// Switch
+// Throw significa Lançar
+// try significa tentar
+// catch significa pegar
 
-function calculate(number1, operator, number2) {
-    let result
-
-
-
-switch (operator) {
-    case '+':
-        result = number1 + number2
-        break
-    case '-':
-        result = number1 - number2
-        break
-    case '*':
-        result = number1 * number2
-        break
-    case '/':
-        result = number1 / number2
-        break
-    default:
-        console.log('não implementado')
-        break
-    }
-
-    return result
+function sayMyName(name = '') {
+    if (name === '')
+    throw new Error("Nome é necessario")
 }
 
-console.log(calculate(4, '#', 8))
+console.log('depois do erro')
+
+
+// try... catch
+try {
+    sayMyName()
+} catch(e) {
+    console.log(e)
+}
+
