@@ -10,4 +10,4 @@ const person = {
      age: '25'
 }
 delete person.age
-console.log(person)
+console.log(person);
