@@ -5,5 +5,3 @@ const y = 10; // valor da const nao podera ser alterado atribuindo valores nem n
 y = 12;
 
 console.log(x);
-
-
