@@ -94,7 +94,7 @@
 // const body = document.querySelector('body');
 
 // body.append(div)
-// body.prepend(div)
+// body.prependy.pred(div)
 // -=-=-==-=-=-=--=-==-=-==-=--=-=-==-=-=-=-=-=--=
 
 // Adicionando elementos
